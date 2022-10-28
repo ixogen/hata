@@ -106,7 +106,7 @@ a.fb {
 
 a.fb:hover {
     background-position: 0 -21px;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/facebook.png ), auto;
 }
 
 a.in {
@@ -117,7 +117,7 @@ a.in {
 
 a.in:hover {
     background-position: -12px -21px;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/insta.png), auto;
 }
 
 a.tw {
@@ -128,7 +128,7 @@ a.tw {
 
 a.tw:hover {
     background-position: -35px -21px;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/twit.png), auto;
 }
 
 .contact-info {
