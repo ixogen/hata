@@ -290,7 +290,7 @@ p.prop-text {
 
 .main-info a:hover {
     text-decoration: none;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/home.png), auto;
 }
 
 .content p {
@@ -434,6 +434,7 @@ p.prop-text {
     font-size: 14px;
     line-height: 26px;
     color: #666;
+    cursor: url(../img/pointer.png), auto;
 }
 
 .footer-menu a:hover {
