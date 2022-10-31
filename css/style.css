@@ -217,6 +217,7 @@ a.tw:hover {
     border: 2px solid #fd8300;
     border-radius: 25px;
     transition: all .25s ease;
+    cursor: url(../img/house-calgary.webp) auto;
 }
 
 .cta a:hover {
@@ -290,7 +291,6 @@ p.prop-text {
 
 .main-info a:hover {
     text-decoration: none;
-    cursor: url(../img/home.png), auto;
 }
 
 .content p {
