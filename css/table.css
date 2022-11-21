@@ -1,0 +1,40 @@
+.table-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.table-wrap thead {
+    color: #fff;
+    background-color: #1f1f56;
+}
+
+.table-wrap th {
+    padding: 13px 21px;
+    text-align: left;
+    font: 14px "Roboto Slab";
+}
+
+.table-wrap th:last-child,
+.table-wrap td:last-child {
+    text-align: right;
+}
+
+.table-wrap td {
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    background-color: #e4e4ec;
+    cursor: url(../img/pointer.png), auto;
+}
+
+.table-wrap tbody tr+tr {
+    border-top: 1px solid #cdcddd;
+}
+
+.table-wrap tbody tr:hover td {
+    color: #fff;
+    background-color: #fd8300;
+    cursor: url(../img/pointer.png) auto;
+}

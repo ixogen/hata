@@ -28,6 +28,7 @@ hr {
 
 a {
     position: relative;
+    cursor: url(../img/pointer.png), auto;
 }
 
 .wrapper {
@@ -44,7 +45,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 28px;
+    column-gap: 21px;
     row-gap: 28px;
 }
 
