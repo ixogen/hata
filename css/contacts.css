@@ -196,7 +196,6 @@ a.tw:hover {
 .cta a {
     display: inline-block;
     padding: 14rem 30rem;
-    color: #25252c;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -207,7 +206,7 @@ a.tw:hover {
 }
 
 .contact-table {
-    padding: 40rem 20rem;
+    padding: 40rem 0rem;
 }
 
 table {
@@ -283,14 +282,16 @@ h2 {
 }
 
 input {
+    border: 1px solid #c5c5d4;
     margin-bottom: 10rem;
-    padding: 10rem 15rem;
+    padding: 10px 15rem;
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 .input-text {
-    padding: 10rem 15rem 76rem;
+    padding: 10px 15px 76px;
 }
 
 .send {
@@ -301,27 +302,99 @@ input {
 
 .send p a {
     display: inline-block;
-    margin-right: 50rem;
-    padding: 12rem 30rem;
+    margin-right: 50px;
+    padding: 12px 30px;
     color: #fff;
     text-decoration: none;
-    font-size: 14rem;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 21px;
     background-color: #fd8300;
 }
 
-.send p a:hover{
-
-}
-
 div.send>input{
-    width: 16rem;
-    height: 16rem;
+    width: 16px;
+    height: 16px;
 }
 
 .send p{
     margin: 0;
-    font-size: 13rem;
+    font-size: 13px;
     color: #666;
 }
+
+textarea {
+    display: inline-block;
+    margin-bottom: 12rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 10rem 15rem;
+    max-height: 176rem;
+    min-height: 106rem;
+    min-width: 573rem;
+    max-width: 467rem;
+    border: none;
+    border: 1px solid #c5c5d4;
+    box-sizing: border-box;
+    border-radius: 3rem;
+}
+
+.send p a:hover {
+    background-color: #24242b;
+    -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.c {
+    position: relative;
+}
+
+.arrow {
+    display: none;
+}
+
+.arrow+label::after,
+.arrow+label::before{
+    content: '';
+    position: absolute;
+}
+
+.arrow+label::before {
+    top: 0;
+    left: -35rem;
+    margin: 0 10rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 3rem;
+    border: 1px solid #c5c5d4;
+    box-sizing: border-box;
+}
+
+.arrow:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 3.5rem;   
+    left: -22rem;
+    width: 8rem;
+    height: 5rem;
+    border-bottom: 2px solid #1f1f56;
+    border-left: 2px solid #1f1f56;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+}  
