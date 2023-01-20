@@ -282,6 +282,7 @@ h2 {
 }
 
 input {
+    border-radius: 3rem;
     border: 1px solid #c5c5d4;
     margin-bottom: 10rem;
     padding: 10px 15rem;
